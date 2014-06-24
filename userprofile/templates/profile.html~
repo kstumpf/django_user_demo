@@ -1,0 +1,25 @@
+{% extends "registration/base.html" %}
+{% load admin_urls %}
+{% load bootstrap3 %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+<div class="container">
+  <h1>Profile</h1>
+  <h2>{{ user.get_username }}</h2>
+  <p>{{ user.get_full_name }}</p>
+  <p><a href="/password/change/">Change password</a></p>
+
+  {% for field in form %}
+    {{field.error}}
+
+  {% endfor %}
+
+  <form action="/profile/" method="post">{% csrf_token %}
+  {{form.as_ul}}
+
+  <input type = "submit" value = "Update" />
+
+  </form>
+
+</div>
+{% endblock %}

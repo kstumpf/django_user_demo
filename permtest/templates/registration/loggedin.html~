@@ -1,0 +1,12 @@
+{% extends "registration/base.html" %}
+
+{% block page_content %}
+
+  <h2>Hi {{name}} you are now logged in!</h2>
+  <p>Click <a href="/accounts/logout/">here</a> to log out.</p>
+
+  <p>Click <a href="/accounts/list/">here</a> to view the list of posts.</p>
+
+  <p>Click <a href="/accounts/profile/">here</a> to edit your profile info.</p>
+
+{% endblock %}

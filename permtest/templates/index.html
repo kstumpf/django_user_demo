@@ -1,0 +1,8 @@
+{% extends "registration/base.html" %}
+{% load url from future %}
+
+{% block content %}
+<div class="row-fluid">
+  <a href = "{% url 'microblog:list' %}" class="btn">Read my blog!</a>
+</div>
+{% endblock %}
