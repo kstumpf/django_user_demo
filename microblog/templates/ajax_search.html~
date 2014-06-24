@@ -1,9 +1,0 @@
-{% if post_count > 0 %}
-
-{% for post in posts %}
-  <li><a href="{% url 'microblog:detail' post.pk %}">{{ post.title }}</a></li>
-{% endfor %}
-
-{% else %}
-  <li>Your search did not yield any results. Try broadening your search and trying again!</li>
-{% endif %}
