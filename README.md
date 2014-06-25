@@ -1,6 +1,5 @@
 permtest
 ========
-
 <h3>Django User Registration, User Extension, ModelForms, Bootstrap</h3>
 
 <p>
@@ -13,10 +12,11 @@ This project was created with:
 </ul></p>
 
 <h3>Installation and Configuration:</h3>
-<p> Download the .zip file located to the right.  
-    From the command line, enter the project and sync the database by typing the following:  
+<p>
+Download the .zip file located to the right.
+From the command line, enter the project and sync the database by typing the following: 
         python manage.py syncdb
-    Then run the server with:
+Then run the server with:
         python manage.py runserver
 </p>
 
@@ -28,4 +28,3 @@ This project was created with:
     <li><a href="http://www.voidynullness.net/blog/2014/01/15/raiders-of-the-lost-django-registration-templates/">Rob Iwancz's Registration Templates</a></li>
     <li><a href="https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD">Mike Hibbert's Youtube Tutorials</a></li>
 </ul></p>
-    
