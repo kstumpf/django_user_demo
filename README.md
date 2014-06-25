@@ -13,8 +13,8 @@ This project was created with:
 </ul></p>
 
 <h3>Installation and Configuration:</h3>
-<p> Download the .zip file located to the right.
-    From the command line, enter the project and sync the database by typing the following:
+<p> Download the .zip file located to the right.  
+    From the command line, enter the project and sync the database by typing the following:  
         python manage.py syncdb
     Then run the server with:
         python manage.py runserver
