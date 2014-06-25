@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     url(r'^accounts/', include('registration.backends.default.urls')),
     url(r'', include('microblog.urls', namespace="microblog")),
 
+#    url(r'^microblog/all/$', 'microblog.views.post_list', name = 'list'),
+
     # Password URL workarounds for Django 1.6: 
     #   http://stackoverflow.com/questions/19985103/
     url(r'^password/change/$',
