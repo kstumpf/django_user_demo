@@ -20,6 +20,7 @@ Then run the server with:
         python manage.py runserver
 </p>
 
+<h3>Proverb Database Features Studied</h3>
 <p>
     This was developed as an exploration of Django User Registration, User Extension, ModelForms (both creating and editing model objects), AJAX search, and basic Bootstrap formatting. The following teaching materials and resources were used throughout the project:
 <ul>
