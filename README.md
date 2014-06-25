@@ -1,15 +1,15 @@
 permtest
 ========
 
-<h2>Django User Registration, User Extension, ModelForms, Bootstrap</h2>
+<h3>Django User Registration, User Extension, ModelForms, Bootstrap</h3>
 
 <p>
 This project was created with:
 <ul>
-    <li>Python 2.7.6</li>
-    <li>Django 1.6.5</li>
-    <li>Bootstrap 3.1.1</li>
-    <li>jQuery 2.1.1</li>
+    <li><a href="https://www.python.org/downloads/">Python 2.7.6</a></li>
+    <li><a href="https://www.djangoproject.com/download/">Django 1.6.5</a></li>
+    <li><a href="http://getbootstrap.com/">Bootstrap 3.1.1</a></li>
+    <li><a href="http://jquery.com/download/">jQuery 2.1.1</a></li>
 </ul></p>
 
 <h3>Installation and Configuration:</h3>
