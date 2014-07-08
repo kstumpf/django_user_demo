@@ -1,4 +1,4 @@
-permtest
+django_user_demo
 ========
 <h3>Django User Registration, User Extension, ModelForms, Bootstrap</h3>
 
